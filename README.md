@@ -40,7 +40,7 @@ The model achieved an exceptional **99% mAP50**, proving that the diverse backgr
    ```bash
    pip install ultralytics opencv-python torch torchvision
 2. **Clone and Setup:**
-   Ensure the `best.pt` weights file is located in your project directory (or update the `MODEL_PATH` variable in the scripts).
+   Ensure the `best.pt` weights file is located in your project directory.
 
 3. **Run Application 1: Live Game Zone Demo**
    Tests basic detection using the spatial ROI filter to ignore your face.
