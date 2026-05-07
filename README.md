@@ -31,7 +31,7 @@ The model achieved an exceptional **99% mAP50**, proving that the diverse backgr
 ![Labels Distribution](results/labels.jpg)
 
 ## Performance Metrics
-![Learning Curves](results/results.jpg)
+![Learning Curves](results/results.png)
 
 
 ## How to Run
