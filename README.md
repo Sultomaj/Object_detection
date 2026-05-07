@@ -33,9 +33,6 @@ The model achieved an exceptional **99% mAP50**, proving that the diverse backgr
 ## Performance Metrics
 ![Learning Curves](results/results.jpg)
 
-## Live Demo
-*(Note: Replace this image with a demo GIF or screenshot)*
-![Live Demo](results/demo.gif)
 
 ## How to Run
 
