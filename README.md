@@ -13,7 +13,7 @@ While achieving high validation metrics is standard, this pipeline was specifica
 ## My Core Engineering Contributions
 * **End-to-End Custom Data Curation:** Managed the entire machine learning lifecycle. Sourced, manually annotated, and balanced a custom image dataset (355 images). Developed automated Python scripts to flatten directories and split the data into a strict 80/20 train/validation YOLO-compliant structure.
 * **Interactive OS-Level Deployment:** Bridged the gap between raw AI predictions and practical software by mapping class IDs to macOS system commands (e.g., executing `osascript` via Python to map "Paper" to Volume Up, and "Scissors" to Mute) with built-in action cooldowns to prevent erratic behavior.
-* **Dynamic Thresholding:** Fine-tuned confidence thresholds (`conf=0.4` to `0.6`) dynamically based on class difficulty—specifically lowering the threshold to capture "Scissors" reliably during high motion-blur states while utilizing spatial bounds to reject noise.
+* **Dynamic Thresholding:** Fine-tuned confidence thresholds (`conf=0.4` to `0.6`) dynamically based on class difficulty, specifically lowering the threshold to capture "Scissors" reliably during high motion-blur states while utilizing spatial bounds to reject noise.
 
 ## Tech Stack
 * **Frameworks/Libraries:** PyTorch, Ultralytics (YOLO), OpenCV
