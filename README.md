@@ -39,3 +39,17 @@ The model achieved an exceptional **99% mAP50**, proving that the diverse backgr
 1. **Install Dependencies:**
    ```bash
    pip install ultralytics opencv-python torch torchvision
+2. **Clone and Setup:**
+   Ensure the `best.pt` weights file is located in your project directory (or update the `MODEL_PATH` variable in the scripts).
+
+3. **Run Application 1: Live Game Zone Demo**
+   Tests basic detection using the spatial ROI filter to ignore your face.
+   ```bash
+   python live_demo.py
+
+4. **Run Application 2: AI Rock-Paper-Scissors**
+   Play against the computer with built-in countdown logic.
+   python ai_game.py
+5. **Run Application 3: macOS Volume Controller**
+   Control your system audio using gestures (Paper = Up, Rock = Down, Scissors = Mute).
+   python volume_mac.py
