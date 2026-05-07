@@ -49,7 +49,9 @@ The model achieved an exceptional **99% mAP50**, proving that the diverse backgr
 
 4. **Run Application 2: AI Rock-Paper-Scissors**
    Play against the computer with built-in countdown logic.
+   ```bash
    python ai_game.py
-5. **Run Application 3: macOS Volume Controller**
+6. **Run Application 3: macOS Volume Controller**
    Control your system audio using gestures (Paper = Up, Rock = Down, Scissors = Mute).
+   ```bash
    python volume_mac.py
